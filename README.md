@@ -11,7 +11,7 @@ for (let x = 0; x < 8; x ++) {
   	triangle += "#";
   	console.log(triangle);
 }
-
+```
 Solution 02:2 FizzBuzz
 
 ```javascript
