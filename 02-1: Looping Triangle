@@ -1,7 +1,0 @@
-Looping Triangle
-
-var triangle = "";
-for (let x = 0; x < 8; x ++) {
-  	triangle += "#";
-  	console.log(triangle);
-}
