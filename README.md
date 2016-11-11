@@ -21,7 +21,7 @@ for (let i = 1; i < 101; i ++) {
   } else if (i % 3 == 0 && i % 5 != 0) {
     console.log("Fizz");
   } else if (i % 3 != 0 && i % 5 == 0) {
-    console.log("Buzz");
+    console.log("Buzz"); 
   } else {
   	console.log(i);
   }
@@ -49,5 +49,11 @@ for (let i = 0; i < size; i++) {
   chaseBoard += "\n";
 }
 console.log(chaseBoard);
+```
+Minimum
+```javascript
+function min(num1, num2) {
+  return num1 < num2 ? num1 : num2;
+}
 ```
 
