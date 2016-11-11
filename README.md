@@ -50,7 +50,8 @@ for (let i = 0; i < size; i++) {
 }
 console.log(chaseBoard);
 ```
-Minimum
+Solution 02:4 Minimum
+
 ```javascript
 function min(num1, num2) {
   return num1 < num2 ? num1 : num2;
