@@ -11,7 +11,7 @@ for (let x = 0; x < 8; x ++) {
   	triangle += "#";
   	console.log(triangle);
 }
-
+```
 Solution 02:2 FizzBuzz
 
 ```javascript
@@ -27,3 +27,27 @@ for (let i = 1; i < 101; i ++) {
   }
 }
 ```
+
+Solution 02:3 Chase Board
+
+```javascript
+
+var size = 8;
+
+var chaseBoard = "";
+
+for (let i = 0; i < size; i++) {
+   
+  for (let j = 0; j < size; j ++) {
+     
+    if ((i + j) % 2 == 0) {
+		chaseBoard += "#";
+    } else {
+    	chaseBoard += " ";
+    }
+  }
+  chaseBoard += "\n";
+}
+console.log(chaseBoard);
+```
+
